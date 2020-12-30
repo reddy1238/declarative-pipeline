@@ -6,10 +6,6 @@ pipeline {
                                        echo 'Hi, this is sailesh'
                                 }
                        }
-                stage('Two') {
-                               steps { 
-                                       input('Do you want to proceed?'}
-                                }
-                       }
+                
         }
 }
